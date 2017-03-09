@@ -1,0 +1,35 @@
+
+<div class="quote-txt">
+    <span class="quote-suptxt"><cite>All art is but dirtying the paper delicately.</cite></span><br>
+    <span class="quote-subtxt">John Ruskin</span>
+</div>
+
+
+<div class="listing-txt">
+<h3>Latest drawings available for sale</h3>
+</div>
+
+<div class="drawing">
+  <div class="row img-style">
+  {{#each model as |item|}}
+
+    <div class="col-md-4">
+    {{#link-to 'item' item.id}}  <img src={{item.image}}>{{/link-to}}
+    <div class="item-listing">
+      "{{item.title}}" by {{item.artist}}<br>
+      {{item.year}} <br>
+      HKD {{item.price}}
+    </div>
+
+    </div>
+
+  {{/each}}
+</div>
+</div>
+<div class="footer">
+  © 2017 Floris V<br>
+  All rights reserved.
+</div>
+
+<!--try out to see if linking works-->
+<!-- {{#link-to 'basket'}}Shopping basket{{/link-to}} -->

@@ -1,0 +1,32 @@
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-8">
+          <img class="detail-img" bind-attr src={{item.image}}>
+        </div>
+
+        <div class="col-md-4">
+          <h2>{{item.title}}</h2>
+          <ul class="list-group">
+            <li class="list-group-item"><strong>Name:</strong>            {{item.artist}}</li>
+            <li class="list-group-item"><strong>Year:</strong>             {{item.year}}</li>
+            <li class="list-group-item"><strong>Description:</strong>      {{item.description}}</li>
+            <li class="list-group-item"><strong>Dimensions:</strong>       {{item.dimensions}}</li>
+            <li class="list-group-item"><strong>Price: HKD</strong>        {{item.price}}</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <strong><span class="qty-txt">Quantity</span></strong>
+          {{input id=qty type="text"}}
+        </div>
+        <div class="col-md-2 btn-display">
+          <button class="btn btn-primary" {{action 'addToCart' item}}><i class="fa fa-plus" aria-hidden="true"></i>
+            <span class="add-sign">Add</span></button>
+          <button class="btn btn-info"><i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            <span class="cart-sign">Cart</span></button>
+        </div>
+
+      </div>
+      {{#link-to 'basket'}}Basket{{/link-to}}
+</div>
+{{display-cart}}

@@ -1,0 +1,50 @@
+{ "items": [{
+    "title": "Baleine",
+    "artist": "Floris Vermeulen",
+    "year": "May 2015",
+    "description": "pen on paper",
+    "dimensions": "64cm x 45cm",
+    "image": "/picture/baleine.png",
+    "price": 240
+  }, {
+    "title": "Boeuf",
+    "artist": "Floris Vermeulen",
+    "year": "September 2016",
+    "description": "pen on paper",
+    "dimensions": "34cm x 45cm",
+    "image": "/picture/boeuf.png",
+    "price": 190
+  }, {
+    "title": "Bird",
+    "artist": "Floris Vermeulen",
+    "year": "July 2015",
+    "description": "pen on paper",
+    "dimensions": "21cm x 34cm",
+    "image": "/picture/bird.png",
+    "price": 135
+  }, {
+    "title": "Cheval des mers",
+    "artist": "Floris Vermeulen",
+    "year": "August 2016",
+    "description": "pen on paper",
+    "dimensions": "42cm x 31cm",
+    "image": "/picture/baleine.png",
+    "price": 180
+  }, {
+    "title": "Fleur",
+    "artist": "Floris Vermeulen",
+    "year": "January 2015",
+    "description": "pen on paper",
+    "dimensions": "30cm x 30cm",
+    "image": "/picture/baleine.png",
+    "price": 165
+  }, {
+    "title": "Tete de mort",
+    "artist": "Floris Vermeulen",
+    "year": "March 2016",
+    "description": "pen on paper",
+    "dimensions": "64cm x 45cm",
+    "image": "/picture/baleine.png",
+    "price": 295
+  }
+  ]}

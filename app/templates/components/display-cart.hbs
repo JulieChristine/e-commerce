@@ -1,0 +1,27 @@
+
+
+<div class="col-md-6">
+  <table class="table">
+    <tr>
+      <th>Title</th>
+      <th>Dimensions</th>
+      <th>Quantity</th>
+      <th>Price</th>
+    </tr>
+    {{#each shoppingCart.products as |product|}}
+    <tr>
+      <td>{{product.title}}</td>
+      <td>{{product.dimensions}}</td>
+      <td></td>
+      <td>{{product.price}}</td>
+    </tr>
+  {{/each}}
+  <tr>
+    {{input type="text"}}
+  </tr>
+  </table>
+</div>
+
+{{#each shoppingCart.products as |product|}}
+  {{prduct.image}} {{product.title}} -- {{product.dimensions}} {{product.price}}
+{{/each}}

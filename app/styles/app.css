@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great');
+
+body{
+  background: url('/assets/images/bg.jpg') no-repeat;
+
+  font-family: 'Amatic SC', cursive;
+  color: black;
+}
+.navbar-brand{
+  color: #fff;
+}
+.navbar-right li{
+  color:#fff;
+}
+.navbar-nav > li > a{
+  color: #fff;
+}
+
+.quote-txt{
+  color:#fff;
+  text-align: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2em;
+  margin-top: 80px;
+
+}
+.quote-suptxt{
+  text-transform: uppercase;
+}
+.quote-subtxt{
+  font-size: 22px;
+}
+
+.listing-txt{
+  margin-top: 80px;
+  margin-left: 20px;
+  color: #fff;
+}
+/******** Images **********/
+img{
+  width:300px;
+  height: 300px;
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+.img-style{
+margin-left:30px;
+}
+.item-listing{
+  color:#000;
+  font-size: 20px;
+}
+
+/****** footer ***********/
+.footer{
+  width:100%;
+  height: 80px;
+  color: #000;
+  text-align: center;
+  margin-top: 50px;
+}
+/******* display each item ************/
+.list-group-item{
+  color: #000;
+}
+
+.detail-img{
+  width:100%;
+
+}
+.btn-display{
+  margin-right: -35px;
+  float:right;
+}
+.add-sign{
+  margin-left: 5px;
+}
+.cart-sign{
+  margin-left:5px;
+}
+
+.qty-txt{
+  color:#000;
+  font-weight: 2700;
+}
+
+/************** Basket display **********/
+.cart{
+  color: #fff;
+}
+
+table, th{
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+th {
+  padding: 18px;
+}
+
+td {
+  padding: 12px; 
+}
